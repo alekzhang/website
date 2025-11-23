@@ -1,6 +1,6 @@
 #!/bin/bash
 # In your Render dashboard, set the HUGO_VERSION env var for your static site.
-TAR_NAME="hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+TAR_NAME="hugo_extended_0.520.0_Linux-64bit.tar.gz"
 
 hugo version # Output the OLD version
 
@@ -26,3 +26,5 @@ if [ "${IS_PULL_REQUEST:-}" = "true" ]; then
 else
   $XDG_CACHE_HOME/hugo --gc --minify
 fi
+
+$XDG_CACHE_HOME/hugo --gc --minify
