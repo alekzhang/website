@@ -1,5 +1,5 @@
-module github.com/bep/gallerydeluxe_starter
+module github.com/alekzhang/website
 
-go 1.19
+go 1.25.4
 
 require github.com/bep/gallerydeluxe v0.12.0 // indirect
