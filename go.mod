@@ -1,4 +1,4 @@
-module github.com/alekzhang/website
+module github.com/alekzhang
 
 go 1.25.4
 
